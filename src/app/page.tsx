@@ -20,14 +20,14 @@ export default function Home() {
           />
         </a>
       </div>
-      <h3 className={styles.title}>CVGPC Show #2 Volunteer sighn up&apos;s</h3>
+      <h3 className={styles.title}>CVGPC Show #2 Volunteer sign up&apos;s</h3>
       <a
         className={styles.link}
         href="https://docs.google.com/spreadsheets/d/1IVxUoQHW6ubHl9XigZAjDt-Imnn1JuaZIZJDGJdOrVQ/edit?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
       >
-        Sign up for a volunteer slot
+        Sign up to volunteer
       </a>
       <br />
       <a
@@ -36,7 +36,7 @@ export default function Home() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        Sign up to bring food for hospitality room
+        Bring food for hospitality room
       </a>
     </main>
   );

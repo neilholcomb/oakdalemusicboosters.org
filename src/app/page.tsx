@@ -60,8 +60,8 @@ export default function Home() {
       <hr />
 
       <h2>
-        Any questions- text Neil Holcomb @ <a href="tel:2093410269"></a>
-        (209)341-0269
+        Any questions - text Neil Holcomb @ &nbsp;
+        <a href="tel:2093410269">(209)341-0269</a>
       </h2>
 
       <h1>

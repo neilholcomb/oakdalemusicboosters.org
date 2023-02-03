@@ -21,16 +21,15 @@ export default function Home() {
         </a>
       </div>
 
-      <h1>WE ARE CO-HOSTING THE NEXT SHOW!!!</h1>
-      <h2>CVGPC Show #2 </h2>
+      <h1>WE ARE CO-HOSTING CVGPC Show #2</h1>
 
+      <h2>Lots of Volunteers Needed</h2>
       <a
-        className={styles.link}
         href="https://docs.google.com/document/d/1MREqjxmfq2jirAHkgiJ-ZMH-9gVBM0V-x55h1-BZW4k/edit?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <h3>Lots of Volunteers Needed Click here to sign up</h3>
+        <h2>Click here to sign up</h2>
       </a>
       <br />
 
@@ -47,7 +46,9 @@ export default function Home() {
         Part of hosting is supplying a hospitality room for the judges and
         coaches
       </h3>
-      <h3>This year we will be providing breakfast, a taco bar for lunch.</h3>
+      <h3>
+        This year we will be providing breakfast, and a taco bar for lunch.
+      </h3>
       <a
         className={styles.link}
         href="https://docs.google.com/spreadsheets/d/1IVxUoQHW6ubHl9XigZAjDt-Imnn1JuaZIZJDGJdOrVQ/edit?usp=sharing"

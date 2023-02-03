@@ -30,7 +30,7 @@ export default function Home() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <h3>Lots of Volunteers Needed, Click here to sign up</h3>
+        <h3>Lots of Volunteers Needed Click here to sign up</h3>
       </a>
       <br />
 

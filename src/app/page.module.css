@@ -1,14 +1,13 @@
 .link {
-  color: rgb(219, 216, 216);
   text-decoration: underline;
   font-size: 1.4rem;
 }
 
 .title {
-  color: rgb(219, 216, 216);
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 600;
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .main {
@@ -25,6 +24,15 @@
   align-items: center;
   position: relative;
   padding: 4rem 0;
+}
+
+.description {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.finePrint {
+  font-size: 0.8rem;
 }
 
 /* Mobile and Tablet */
@@ -44,6 +52,5 @@
 
   .title {
     font-size: 2.2rem;
-    text-align: center;
   }
 }

@@ -35,7 +35,7 @@ export default function Home() {
           alt="Follow us on FaceBook"
           width={75}
           height={75}
-          priority
+          unoptimized
         />
       </a>
     </main>

@@ -1,3 +1,16 @@
+.paddedTop {
+  margin-top: 20px;
+}
+
+.signupLink {
+  font-size: larger;
+  font-weight: bolder;
+  color: #ff0000;
+  text-decoration: underline;
+  text-decoration-color: darkgoldenrod;
+  margin-bottom: 25px;
+}
+
 .link {
   text-decoration: underline;
   font-size: 1.4rem;
@@ -24,6 +37,7 @@
   align-items: center;
   position: relative;
   padding: 4rem 0;
+  column-gap: 2rem;
 }
 
 .description {

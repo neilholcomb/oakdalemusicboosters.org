@@ -18,27 +18,27 @@ interface ChartDataPoint {
 }
 
 interface CustomLabelProps {
+  isDollar?: boolean;
+  value?: string | number;
+  width?: string | number;
   x?: string | number;
   y?: string | number;
-  width?: string | number;
-  value?: string | number;
-  isDollar?: boolean;
 }
 
 interface YearlyTotalsProps {
-  totals: { year: number; total: number }[];
-  title: string;
-  isDollar?: boolean;
   colors: string[];
   data: YearlySales[];
+  isDollar?: boolean;
+  title: string;
+  totals: { total: number; year: number }[];
 }
 
 interface SalesChartProps {
   data: YearlySales[];
-  title: string;
-  yearlyTotalsTitle: string;
   dataKey: keyof DailySales;
   isDollar?: boolean;
+  title: string;
+  yearlyTotalsTitle: string;
 }
 
 const CustomLabel = (props: CustomLabelProps) => {
@@ -181,7 +181,7 @@ export const SalesChart = ({
       (sum, day) => sum + (day[dataKey] as number),
       0
     );
-    return { year: yearData.year, total };
+    return { total, year: yearData.year };
   });
 
   // Using Tailwind's default color palette
@@ -195,7 +195,7 @@ export const SalesChart = ({
         <ResponsiveContainer width="100%" height={450}>
           <BarChart
             data={chartData}
-            margin={{ top: 60, right: 30, left: 20, bottom: 5 }}
+            margin={{ bottom: 5, left: 20, right: 30, top: 60 }}
           >
             <XAxis dataKey="date" />
             <YAxis

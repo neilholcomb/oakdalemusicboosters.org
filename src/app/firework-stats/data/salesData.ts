@@ -5,13 +5,12 @@ export interface DailySales {
 }
 
 export interface YearlySales {
-  year: number;
   dailySales: DailySales[];
+  year: number;
 }
 
 export const salesData: YearlySales[] = [
   {
-    year: 2023,
     dailySales: [
       { date: '6/28', netSales: 0, totalCount: 0 },
       { date: '6/29', netSales: 5162.35, totalCount: 39 },
@@ -21,9 +20,9 @@ export const salesData: YearlySales[] = [
       { date: '7/3', netSales: 29686.74, totalCount: 225 },
       { date: '7/4', netSales: 33030.25, totalCount: 309 },
     ],
+    year: 2023,
   },
   {
-    year: 2024,
     dailySales: [
       { date: '6/28', netSales: 0, totalCount: 0 },
       { date: '6/29', netSales: 6037.81, totalCount: 42 },
@@ -33,9 +32,9 @@ export const salesData: YearlySales[] = [
       { date: '7/3', netSales: 28673.53, totalCount: 201 },
       { date: '7/4', netSales: 40607.85, totalCount: 374 },
     ],
+    year: 2024,
   },
   {
-    year: 2025,
     dailySales: [
       { date: '6/28', netSales: 0, totalCount: 0 },
       { date: '6/29', netSales: 0, totalCount: 0 },
@@ -45,5 +44,6 @@ export const salesData: YearlySales[] = [
       { date: '7/3', netSales: 0, totalCount: 0 },
       { date: '7/4', netSales: 0, totalCount: 0 },
     ],
+    year: 2025,
   },
 ];

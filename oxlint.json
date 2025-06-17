@@ -13,6 +13,9 @@
     "max-statements": "off",
     "max-nested-callbacks": "off",
     "import/exports-last": "off",
+    "import/group-exports": "off",
+    "no-nested-ternary": "off",
+    "no-ternary": "off",
     "react/exhaustive-deps": "warn",
     "react/jsx-key": "error",
     "react/jsx-no-duplicate-props": "error",
@@ -25,7 +28,8 @@
     "react/no-unknown-property": "error",
     "react/prop-types": "off",
     "react/react-in-jsx-scope": "off",
-    "react/iframe-missing-sandbox": "off"
+    "react/iframe-missing-sandbox": "off",
+    "no-magic-numbers": "off"
   },
   "plugins": ["react", "jsx-a11y", "import"],
   "env": {

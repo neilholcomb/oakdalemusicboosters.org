@@ -2,6 +2,22 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+### Environment Variables
+
+For local development, create a `.env.local` file in the root directory with your Square API credentials:
+
+```bash
+SQUARE_APPLICATION_ID=your_square_application_id_here
+SQUARE_ACCESS_TOKEN=your_square_access_token_here
+SQUARE_ENVIRONMENT=sandbox
+```
+
+**Note:** Never commit `.env.local` to version control. It's already included in `.gitignore`.
+
+For production deployment on Vercel, set these environment variables in your Vercel dashboard under Settings > Environment Variables.
+
+### Development Server
+
 First, run the development server:
 
 ```bash
@@ -14,9 +30,12 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### API Endpoints
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- [http://localhost:3000/api/sales-data](http://localhost:3000/api/sales-data) - Returns fireworks sales data
+- [http://localhost:3000/api/hello](http://localhost:3000/api/hello) - Example API endpoint
+
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 

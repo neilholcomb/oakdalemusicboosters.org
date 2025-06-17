@@ -1,9 +1,9 @@
-import "./globals.css";
+import './globals.css';
 
 export const metadata = {
-  title: "Oakdale Music Boosters",
   description:
-    "Supporting music programs in the Oakdale Joint Unified School District",
+    'Supporting music programs in the Oakdale Joint Unified School District',
+  title: 'Oakdale Music Boosters',
 };
 
 export default function RootLayout({

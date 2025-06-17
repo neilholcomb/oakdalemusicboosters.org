@@ -1,4 +1,4 @@
-import styles from "./page.module.css";
+import styles from './page.module.css';
 
 export default function Home() {
   return (
@@ -6,6 +6,6 @@ export default function Home() {
       src="https://oakdalecamusicboosters.org/"
       title="Temp site"
       className={styles.main}
-    ></iframe>
+    />
   );
 }

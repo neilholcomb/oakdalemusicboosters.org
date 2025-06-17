@@ -1,0 +1,37 @@
+{
+  "categories": {
+    "correctness": "warn",
+    "suspicious": "warn",
+    "style": "warn"
+  },
+  "rules": {
+    "no-unused-vars": "error",
+    "no-unused-expressions": "warn",
+    "max-lines-per-function": "off",
+    "@typescript-eslint/max-lines-per-function": "off",
+    "complexity": "off",
+    "max-statements": "off",
+    "max-nested-callbacks": "off",
+    "import/exports-last": "off",
+    "react/exhaustive-deps": "warn",
+    "react/jsx-key": "error",
+    "react/jsx-no-duplicate-props": "error",
+    "react/jsx-no-undef": "error",
+    "react/jsx-uses-react": "warn",
+    "react/jsx-uses-vars": "warn",
+    "react/no-deprecated": "warn",
+    "react/no-direct-mutation-state": "error",
+    "react/no-is-mounted": "error",
+    "react/no-unknown-property": "error",
+    "react/prop-types": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/iframe-missing-sandbox": "off"
+  },
+  "plugins": ["react", "jsx-a11y", "import"],
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "ignore_patterns": ["node_modules/", ".next/", "out/", "build/", "dist/"]
+}
